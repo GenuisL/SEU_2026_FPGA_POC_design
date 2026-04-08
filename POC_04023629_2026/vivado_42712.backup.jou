@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Mar 25 00:03:47 2026
+# Process ID: 42712
+# Current directory: F:/Xilinx_project/POC_04023629_2026
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent41004 F:\Xilinx_project\POC_04023629_2026\POC_04023629_2026.xpr
+# Log file: F:/Xilinx_project/POC_04023629_2026/vivado.log
+# Journal file: F:/Xilinx_project/POC_04023629_2026\vivado.jou
+# Running On: GenuisL, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 24, Host memory: 33959 MB
+#-----------------------------------------------------------
+start_gui
+open_project F:/Xilinx_project/POC_04023629_2026/POC_04023629_2026.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config F:/Xilinx_project/POC_04023629_2026/POC_tb_behav.wcfg
+source POC_tb.tcl
+close_sim
